@@ -1,0 +1,279 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#6ae45a ), color-stop(100%,#ec6d8d));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.login_board{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -230px;
+    margin-top: -180px;
+    padding: 30px;
+    text-align: center;
+    z-index: 10;
+    letter-spacing: 1px;
+    font-weight: 200;
+    border-radius: 10px;
+}
+.login_board:after{
+    content: '';
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -230px;
+    margin-top: -180px;
+    padding: 30px;
+    background-color: rgba(253, 163, 241, 0.3);
+    z-index: -1;
+    border-radius: 10px;
+}
+.login_board:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#6ae45a ), color-stop(100%,#ec6d8d));
+    background-position: center;
+    background-size: 100vw 100vh;
+    z-index: -1;
+    -webkit-filter: blur(3px);
+            filter: blur(3px);
+}
+
+.signup{
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -230px;
+    margin-top: -255px;
+    padding: 30px;
+    text-align: center;
+    z-index: 10;
+    letter-spacing: 1px;
+    font-weight: 200;
+    border-radius: 10px;
+}
+.signup:after{
+    content: '';
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -230px;
+    margin-top: -255px;
+    padding: 30px;
+    background-color: rgba(253, 163, 241, 0.3);
+    z-index: -1;
+    border-radius: 10px;
+}
+.signup:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#6ae45a ), color-stop(100%,#ec6d8d));
+    background-position: center;
+    background-size: 100vw 100vh;
+    z-index: -1;
+    -webkit-filter: blur(3px);
+            filter: blur(3px);
+}
+
+.userpage{
+    background-color: rgba(253, 163, 241, 0.2);
+    width: 80%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -43%;
+    margin-top: 3%;
+    padding: 3%;
+    text-align: center;
+    z-index: 10;
+    letter-spacing: 1px;
+    font-weight: 200;
+    border-radius: 10px;
+}
+.adminpage{
+    background-color: rgba(253, 163, 241, 0.3);
+    width: 80%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -43%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 3%;
+    text-align: center;
+    z-index: 10;
+    letter-spacing: 1px;
+    font-weight: 200;
+    border-radius: 10px;
+}
+
+input[type="submit"]{
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer; 
+    background: rgba(52, 152, 219, 0.85);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px 10px 20px;
+}
+input[type="submit"]:hover{
+    font-family: 'Raleway', sans-serif;
+    background: rgba(0, 162, 255, 0.85);
+}
+
+input[type="reset"]{
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer; 
+    background: rgba(57, 219, 52, 0.85);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px 10px 20px;
+}
+input[type="reset"]:hover{
+    font-family: 'Raleway', sans-serif;
+    background: rgba(9, 255, 0, 0.85);
+}
+
+input[type="button"]{
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer; 
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+input[type="button"]:hover{
+    font-family: 'Raleway', sans-serif;
+    background: rgba(255, 255, 255, 0.85);
+}
+input[type=number]{
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;   
+    width: 70px;
+    font-family: 'Raleway', sans-serif;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px 20px 10px 20px;
+    margin: 0px 0px 0px 5px;
+}
+input{
+    font-family: 'Raleway', sans-serif;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px 20px 10px 20px;
+}
+
+table{
+    border: 3px;
+    border-collapse: collapse;
+    width: 80vw;
+}
+tr{
+    text-align: left;
+}
+th{
+    border-bottom: 1px solid black;
+}
+td{
+    border-bottom: 1px solid gray;
+    padding: 3px;
+}
+
+#p_select{
+    font-family: 'Raleway', sans-serif;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px 20px 10px 20px;
+}
+#l_select{
+    font-family: 'Raleway', sans-serif;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px 20px 10px 20px;
+}
+#edit{
+    color: black;
+    width: 80px;
+    background: rgba(192, 192, 192, 0.85);
+    padding: 8px 0 8px 0;
+}
+#edit:hover{
+    background: rgba(211, 211, 211, 0.85);
+}
+#favorite{
+    color: white;
+    width: 80px;
+    background: rgba(52, 152, 219, 0.85);
+    padding: 8px 0 8px 0;
+}
+#favorite:hover{
+    background: rgba(0, 162, 255, 0.85);
+}
+#book{
+    color: white;
+    width: 80px;
+    background: rgba(172, 52, 219, 0.85);
+    padding: 8px 0 8px 0;
+}
+#book:hover{
+    background: rgba(225, 0, 255, 0.85);
+}
+#promote{
+    color: white;
+    width: 80px;
+    background: rgba(52, 219, 74, 0.85);
+    padding: 8px 0 8px 0;
+}
+#promote:hover{
+    background: rgba(0, 255, 30, 0.85);
+}
+#demote{
+    color: white;
+    width: 80px;
+    background: rgba(52, 152, 219, 0.85);
+    padding: 8px 0 8px 0;
+}
+#demote:hover{
+    background: rgba(0, 162, 255, 0.85);
+}
+#delete{
+    color: white;
+    width: 80px;
+    background: rgba(219, 52, 52, 0.85);
+    padding: 8px 0 8px 0;
+}
+#delete:hover{
+    background: rgba(255, 0, 0, 0.85);
+}
