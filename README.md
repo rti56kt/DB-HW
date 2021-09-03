@@ -1,4 +1,4 @@
-# Introduction to Database Systems
+# NCTU Introduction to Database Systems
 
 [Fall'17] NCTU CS - Introduction to Database Systems Projects
 
